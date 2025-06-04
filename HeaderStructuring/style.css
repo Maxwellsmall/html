@@ -28,12 +28,18 @@ body {
   display: flex;
 }
 .navholder {
-  width: 600px;
+  width: 400px;
   height: 60px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.navsholder{
+  cursor: pointer;
+}
+.navsholder a{
+  text-decoration: none;
+  color: black;
 }
 .buttonholder {
   width: 120px;
@@ -47,15 +53,4 @@ body {
   background-color: rgb(3, 3, 83);
   color: white;
   transition: all ease-in-out 0.6s;
-}
-.header2 {
-  width: 100%;
-  height: 70px;
-  background-color: white;
-  margin-bottom: 50px;
-}
-.header3 {
-  width: 100%;
-  height: 70px;
-  background-color: white;
 }
